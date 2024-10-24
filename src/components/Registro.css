@@ -1,0 +1,135 @@
+/* Estilos base */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar .logo img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .navbar .menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .navbar .menu li {
+    margin: 0 15px;
+    cursor: pointer;
+  }
+  
+  .login-button {
+    background-color: #ff5722;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-button:hover {
+    background-color: #e64a19;
+  }
+  
+  /* Registro */
+  .registro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f2f2f2;
+  }
+  
+  .formulario {
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .formulario h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .avatar {
+    font-size: 60px;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #e64a19;
+  }
+  
+  .google-signup {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .google-signup i {
+    color: #db4437;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+  }
+  
