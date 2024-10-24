@@ -1,0 +1,133 @@
+/* Comunidad.css */
+.comunidad-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .comunidad-header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0;
+  }
+  
+  .comunidad-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .comunidad-nav li {
+    margin: 0 20px;
+    font-size: 16px;
+    cursor: pointer;
+    padding-bottom: 5px;
+  }
+  
+  .comunidad-nav li.active {
+    color: #f36e21;
+    border-bottom: 2px solid #f36e21;
+  }
+  
+  .comunidad-body {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  .feed {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .post-form,
+  .post {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  
+  .post-avatar {
+    margin-right: 20px;
+  }
+  
+  .post-avatar img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .post-input textarea {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .attach-media {
+    margin-top: 10px;
+    background-color: #f36e21;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .post-content {
+    flex: 1;
+  }
+  
+  .post-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .post-media img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .post-hashtags span {
+    color: #f36e21;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .comment {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .comment img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-info p {
+    margin: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    text-align: center;
+    font-size: 14px;
+  }
+  

@@ -1,8 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Registro from './components/Registro';
 import CompletarRegistro from './components/CompletarRegistro';
+import Comunidad from './components/Comunidad'; // Asegúrate de que esta línea sea correcta
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
             </div>
             <ul className="menu">
               <li>Tutoriales</li>
-              <li>Comunidad</li>
+              <li><Link to="/comunidad">Comunidad</Link></li> {/* Cambiar por Link de React */}
               <li>Academias afiliadas</li>
               <li>Canciones</li>
               <li>
@@ -28,10 +29,9 @@ function App() {
 
         <main className="main-content">
           <Routes>
-            {/* Ruta para el registro */}
             <Route path="/" element={<Registro />} />
-            {/* Ruta para completar el registro */}
             <Route path="/completar-registro" element={<CompletarRegistro />} />
+            <Route path="/comunidad" element={<Comunidad />} /> {/* Asegúrate de que esta ruta esté incluida */}
           </Routes>
         </main>
 
